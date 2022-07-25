@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"op":"null","name":"Input","inputs":[]},
+		{"op":"null","name":"LLL.Weights","inputs":[]},
+		{"op":"null","name":"LLL.Biases","inputs":[]},
+		{"op":"FullyConnected","name":"LLL","attrs":{"num_hidden":"4","no_bias":"False"},"inputs":[[0,0,0],[1,0,0],[2,0,0]]},
+		{"op":"identity","name":"Output","inputs":[[3,0,0]]}
+	],
+	"arg_nodes":[0,1,2],
+	"heads":[[4,0,0]],
+	"attrs":{
+		"mxnet_version":["int",20000]
+	}
+}
